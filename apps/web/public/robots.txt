@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://carlosazaustre.es
+
+# Sitemaps
+Sitemap: https://carlosazaustre.es/sitemap.xml

@@ -7,6 +7,7 @@ export { OpenPR } from "./src/OpenPR";
 export { Dropdown, DropdownItem } from "./src/Dropdown";
 export { Footer } from "./src/Footer";
 export { NewsletterForm } from "./src/NewsletterForm";
+export { Label } from "./src/Label";
 export { SpotifyPodcast } from "./src/SpotifyPodcast";
 export { CustomImage } from "./src/CustomImage";
 export { ReviewCard } from "./src/ReviewCard";

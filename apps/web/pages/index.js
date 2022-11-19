@@ -17,10 +17,10 @@ export default function Home({ posts }) {
             <OpenGraph />
             <UI.Box
                 w="100%"
-                bg="secondary.900"
+                bg="discord.100"
                 borderTop="8px solid"
                 borderColor="brand.900"
-                color="white"
+                color="black"
             >
                 <UI.Container maxW="container.md" pt="8">
                     <SectionLinks />
@@ -136,6 +136,7 @@ export default function Home({ posts }) {
                             <SpotifyPodcast episode="0PBKdkFnkgFVbfii3wsGk1" />
 
                             <NewsletterForm />
+
                         </UI.Box>
                     </UI.Flex>
                 </UI.Container>
@@ -154,3 +155,5 @@ export async function getStaticProps() {
         props: { posts },
     };
 }
+
+//<NewsletterForm />
